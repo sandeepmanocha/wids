@@ -1,6 +1,18 @@
+<div class="container">
+  <ul class="row">
+    <div class = "col-xs-12">
+      <app-question *ngFor="let question of questions"
+        [question]="question">
 
-<ul>
-  <div *ngFor="let question of questions">
-    <li> question </li>
-  </div>
-</ul>
+        
+        <!--
+        <app-answer *ngFor="let answer of question.answers"
+          [answer]="answer">
+        </app-answer>
+        -->
+
+      </app-question>
+    </div>
+  </ul>
+</div>
+
