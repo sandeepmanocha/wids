@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Question } from './question-model'
-import { Answer } from './answer-model'
+import { Question } from '../models/question-model'
+import { Answer } from '../models/answer-model'
 
 @Component({
   selector: 'app-questions-list',

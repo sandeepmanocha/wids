@@ -2,15 +2,7 @@
   <ul class="row">
     <div class = "col-xs-12">
       <app-question *ngFor="let question of questions"
-        [question]="question">
-
-        
-        <!--
-        <app-answer *ngFor="let answer of question.answers"
-          [answer]="answer">
-        </app-answer>
-        -->
-
+        [compQuestion]="question">
       </app-question>
     </div>
   </ul>

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Answer } from '../../answer-model'
+import { Answer } from '../../../models/answer-model'
 
 @Component({
   selector: 'app-answer',
@@ -8,7 +8,9 @@ import { Answer } from '../../answer-model'
 })
 export class AnswerComponent implements OnInit {
   
-  @Input() answer: Answer;
+
+  // For getting the data from outside
+  @Input("compAnswer") answer: Answer;
 
   constructor() { }
 

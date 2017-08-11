@@ -8,7 +8,8 @@ import { Question } from '../question-model'
 })
 export class QuestionComponent implements OnInit {
 
-  @Input() question: Question;
+  // for getting data from outside
+  @Input("compQuestion") question: Question;
 
   constructor() { }
 
