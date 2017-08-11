@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './header/header.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 import { QuestionsListComponent } from './questions-list/questions-list.component';
 import { QuestionComponent } from './questions-list/question/question.component';
@@ -14,6 +15,7 @@ import { AnswerComponent } from './questions-list/question/answer/answer.compone
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomePageComponent,
     QuestionsListComponent,
     QuestionComponent,
     AnswerComponent
